@@ -12,7 +12,7 @@
 //       Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas
 //       palabras en mayúscula y las demás letras en minúscula(utilizar indexOf, substring, toUpperCase, toLowerCase y el operador + ). 
 
-console.log("********************* Exercise 02 *********************");
+console.log("************************* Exercise 02 *************************");
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 02 - ${exerciseId} -------------------`)
