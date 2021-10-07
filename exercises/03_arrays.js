@@ -9,7 +9,7 @@
 //    g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre(utilizar slice).
 
 
-console.log("************************* Exercise 03 *************************");
+console.log('************************* Exercise 03 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 03 - ${exerciseId} -------------------`)
@@ -60,14 +60,14 @@ function exercise03e() {
 function exercise03f() {
   var joinedArr = arrayVar.join('-')
   separator('f')
-  console.log("Using .join('-'):")
+  console.log('Using .join("-"):')
   console.log(joinedArr)
 }
 
 function exercise03g() {
   var slicedArr = arrayVar.slice(arrayVar.indexOf('Noviembre'), arrayVar.indexOf('Mayo') + 1)
   separator('g')
-  console.log("Using slice and indexOf:")
+  console.log('Using slice and indexOf:')
   console.log(slicedArr)
 }
 

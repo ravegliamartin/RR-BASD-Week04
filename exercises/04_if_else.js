@@ -11,7 +11,7 @@
 //        vii) “Anciano” si es mayor a 75 años.
 
 
-console.log("************************* Exercise 04 *************************");
+console.log('************************* Exercise 04 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 04 - ${exerciseId} -------------------`)

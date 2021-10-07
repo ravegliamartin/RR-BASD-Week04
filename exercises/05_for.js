@@ -9,7 +9,7 @@
 //        Mostrar por la consola del navegador el array final(utilizar console.log).
 
 
-console.log("************************* Exercise 05 *************************");
+console.log('************************* Exercise 05 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 05 - ${exerciseId} -------------------`)

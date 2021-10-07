@@ -12,7 +12,7 @@
 //       Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas
 //       palabras en mayúscula y las demás letras en minúscula(utilizar indexOf, substring, toUpperCase, toLowerCase y el operador + ). 
 
-console.log("************************* Exercise 02 *************************");
+console.log('************************* Exercise 02 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 02 - ${exerciseId} -------------------`)
@@ -30,7 +30,7 @@ function exercise02b() {
   var substringVar = stringVar.substring(0, 5)
   separator('b')
   console.log(`stringVar = ${stringVar}`)
-  console.log(`substringVar = stringVar.substring(0,5)`)
+  console.log('substringVar = stringVar.substring(0,5)')
   console.log(`substringVar = ${substringVar}`)
 }
 
@@ -39,7 +39,7 @@ function exercise02c() {
   var substringVar = stringVar.substring(stringVar.length - 3)
   separator('c')
   console.log(`stringVar = ${stringVar}`)
-  console.log(`substringVar = stringVar.substring(stringVar.length - 3)`)
+  console.log('substringVar = stringVar.substring(stringVar.length - 3)')
   console.log(`substringVar = ${substringVar}`)
 }
 
@@ -48,7 +48,7 @@ function exercise02d() {
   var transformedString = stringVar.substring(0, 1).toUpperCase() + stringVar.substring(1).toLowerCase()
   separator('d')
   console.log(`stringVar = ${stringVar}`)
-  console.log(`transformedString = stringVar.substring(0, 1).toUpperCase() + stringVar.substring(1).toLowerCase()`)
+  console.log('transformedString = stringVar.substring(0, 1).toUpperCase() + stringVar.substring(1).toLowerCase()')
   console.log(`transformedString = ${transformedString}`)
 }
 
@@ -57,7 +57,7 @@ function exercise02e() {
   var firstBlank = stringVar.indexOf(' ')
   separator('e')
   console.log(`stringVar = ${stringVar}`)
-  console.log(`firstBlank = stringVar.indexOf(' ')`)
+  console.log('firstBlank = stringVar.indexOf(" ")')
   console.log(`firstBlank = ${firstBlank}`)
 }
 

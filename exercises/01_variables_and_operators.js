@@ -4,7 +4,7 @@
 //    c) Crear dos variables de tipo String y sumar el largo de cada variable(cantidad de letras del string) guardando el 
 //       resultado de la suma en una 3 er variable(utilizar length).
 
-console.log("************************* Exercise 01 *************************");
+console.log('************************* Exercise 01 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 01 - ${exerciseId} -------------------`)

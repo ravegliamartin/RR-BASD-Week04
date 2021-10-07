@@ -9,7 +9,7 @@
 //    e) Convertir la validación del ejercicio 6 b) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
 
 
-console.log('************************* Exercise 06 *************************');
+console.log('************************* Exercise 06 *************************')
 
 function separator(exerciseId) {
   console.log(`------------------- Exercise 06 - ${exerciseId} -------------------`)
